@@ -1,0 +1,23 @@
+﻿<Window x:Class="ClickyCircle.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClickyCircle"
+        mc:Ignorable="d"
+        Title="ClickyCircle" Height="352" Width="449" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-6" Background="Gray">
+
+        <Button x:Name="BtnStart" Content="Play" HorizontalAlignment="Left" Margin="21,54,0,0" VerticalAlignment="Top" Height="77" Width="116" Click="BtnStart_Click" IsEnabled="False" Background="LightGray" Grid.ColumnSpan="2"/>
+        <Label Content="ClickyCircle Menu" HorizontalAlignment="Left" Margin="21,0,0,0" VerticalAlignment="Top" Height="69" Width="251" FontSize="30"/>
+        <ListBox x:Name="LBSongSelection" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="165,45,32,29" SelectionChanged="ListBox_SelectionChanged" Background="LightGray">
+
+            <ListBoxItem x:Name="Demo" FontSize="25" Height="50" Content="Demo"/>
+
+        </ListBox>
+        <Button x:Name="BTNLeaderBoard" Content="LeaderBoard" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Height="77" Width="116" IsEnabled="False" Background="LightGray" Click="BTNLeaderBoard_Click"/>
+        <Button x:Name="BTNLogin" Content="Login" HorizontalAlignment="Left" Margin="21,223,0,0" VerticalAlignment="Top" Height="22" Width="44"  Background="LightGray" Click="BTNLogin_Click" />
+        <Button x:Name="BTNNew_User" Content="New User" HorizontalAlignment="Left" Margin="70,223,0,0" VerticalAlignment="Top" Height="22" Width="67" Background="LightGray" Click="BTNNew_User_Click" />
+
+    </Grid>
+</Window>
