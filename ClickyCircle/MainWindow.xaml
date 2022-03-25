@@ -12,6 +12,9 @@
         <Label Name="txtLastScore" FontSize="20" FontWeight="Bold" Foreground="Purple" Content="Last Score: 0" Canvas.Left="180" />
 
         <Rectangle Stroke="Black" Name="healthBar" Width="350" Fill="Red" Height="27" Canvas.Left="433" Canvas.Top="10" />
+        <Button Content="Leaderboard" Canvas.Top="37" Width="93" Height="22" Background="#FF868686" Click="Leaderboard_Click"/>
+        <Button Content="Stop" Canvas.Top="59" Click="Pause_Click" Width="35" Foreground="#FF1B1919" Background="#FF868686"/>
+        <Button Content="Start" Canvas.Top="84" Background="#FF868686" Click="Start_Click"/>
 
     </Canvas>
 </Window>

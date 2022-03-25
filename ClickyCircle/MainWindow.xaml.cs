@@ -232,5 +232,33 @@ namespace ClickyCircle
 
 
         }
+        private void conditioningBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var newForm = new Window1(); //create your new form.
+            newForm.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
+
+       
+        private void Leaderboard_Click(object sender, RoutedEventArgs e)
+        {
+            gameTimer.Stop();    // pauses game while loading leaderboard
+            var window = new Window1();   //opens window1 
+            window.ShowDialog();      // Displays leaderboard window
+            gameTimer.Start();    //resumes game upon exiting leaderboard page
+
+        }
+
+
+        private void Pause_Click(object sender, RoutedEventArgs e)
+        {
+            gameTimer.Stop(); //pauses game
+           
+        }
+
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+            gameTimer.Start();   //resumes game
+        }
     }
 }
