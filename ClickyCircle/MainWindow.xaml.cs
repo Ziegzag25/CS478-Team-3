@@ -20,37 +20,37 @@ namespace ClickyCircle
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {     
-            DispatcherTimer gameTimer = new DispatcherTimer(); // create a new instance of the dispatcher time called gameTimer
+    {
+        DispatcherTimer gameTimer = new DispatcherTimer(); // create a new instance of the dispatcher time called gameTimer
 
-            List<Ellipse> removeThis = new List<Ellipse>(); // make a list of ellipse called remove this it will be used to remove the circles we click on from the game
+        List<Ellipse> removeThis = new List<Ellipse>(); // make a list of ellipse called remove this it will be used to remove the circles we click on from the game
 
-            // below are all the necessary integers declared for this game
-            int spawnRate = 60; // this is the default spawn rate of the circles
-            int currentRate; // current rate will help add an interval between spawning of the circles
-            int lastScore = 0; // this will hold the last played score for this game
-            int health = 350; // total health of the player in the begining of the game
-            int posX; // x position of the circles
-            int posY; // y position of the circles
-            int score = 0; // current score for the game
+        // below are all the necessary integers declared for this game
+        int spawnRate = 60; // this is the default spawn rate of the circles
+        int currentRate; // current rate will help add an interval between spawning of the circles
+        int lastScore = 0; // this will hold the last played score for this game
+        int health = 350; // total health of the player in the begining of the game
+        int posX; // x position of the circles
+        int posY; // y position of the circles
+        int score = 0; // current score for the game
 
-            double growthRate = 0.6; // the default growth rate for each circle in the game
+        double growthRate = 0.6; // the default growth rate for each circle in the game
 
-            Random rand = new Random(); // a random number generator
+        Random rand = new Random(); // a random number generator
 
-            // below are the two media player classes one for the clicked sound and one for the pop sound
+        // below are the two media player classes one for the clicked sound and one for the pop sound
 
-            MediaPlayer playClickSound = new MediaPlayer();
-            MediaPlayer playerPopSound = new MediaPlayer();
+        MediaPlayer playClickSound = new MediaPlayer();
+        MediaPlayer playerPopSound = new MediaPlayer();
 
-            // below are the two URI location finder for both mp3 files we imported for this game
+        // below are the two URI location finder for both mp3 files we imported for this game
 
-            Uri ClickedSound;
-            Uri PoppedSound;
+        Uri ClickedSound;
+        Uri PoppedSound;
 
-            // colour for the circles
-            Brush brush;
-        
+        // colour for the circles
+        Brush brush;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -206,32 +206,55 @@ namespace ClickyCircle
             gameTimer.Stop(); // first stop the game timer
 
             // show a message box to the end screen and wait for the player to click ok
-            MessageBox.Show("Game Over" + Environment.NewLine + "You Scored: " + score + Environment.NewLine + "Click Ok to play again!");
+            //modified to allow for yes or no input
+            //should probably use window if more inputs need message boxes aren't very flexable
+            MessageBoxResult mbr = MessageBox.Show("Game Over" + Environment.NewLine + "You Scored: " + score + Environment.NewLine + "Click Yes to play again!", "Retry?", MessageBoxButton.YesNo);
 
-            // after the player clicked ok now we need to do a for each loop
-            foreach (var y in MyCanvas.Children.OfType<Ellipse>())
+            switch (mbr) //saves yes or no response
             {
-                // find all of the existing ellipse that are on the screen and add them to the remove this list
-                removeThis.Add(y);
-            }
-            // here we need another for each loop to remove everything from inside of the remove this list
-            foreach (Ellipse i in removeThis)
-            {
-                MyCanvas.Children.Remove(i);
-            }
+                case MessageBoxResult.Yes: //uses original OK button code
 
-            // reset all of the game values to default including clearling all of the ellipses from the remove this list
-            growthRate = .6;
-            spawnRate = 60;
-            lastScore = score;
-            score = 0;
-            currentRate = 5;
-            health = 350;
-            removeThis.Clear();
-            gameTimer.Start();
 
+
+
+
+
+
+                    // after the player clicked ok now we need to do a for each loop
+                    foreach (var y in MyCanvas.Children.OfType<Ellipse>())
+                    {
+                        // find all of the existing ellipse that are on the screen and add them to the remove this list
+                        removeThis.Add(y);
+                    }
+                    // here we need another for each loop to remove everything from inside of the remove this list
+                    foreach (Ellipse i in removeThis)
+                    {
+                        MyCanvas.Children.Remove(i);
+                    }
+
+                    // reset all of the game values to default including clearling all of the ellipses from the remove this list
+                    growthRate = .6;
+                    spawnRate = 60;
+                    lastScore = score;
+                    score = 0;
+                    currentRate = 5;
+                    health = 350;
+                    removeThis.Clear();
+                    gameTimer.Start();
+                    break;
+
+                case MessageBoxResult.No: //closes MainWindow opens Menu
+                    MainMenu mm = new MainMenu();
+                    mm.Show();
+                    this.Close();
+                    break;
+            }
+            
 
         }
+
+
+        
         private void conditioningBtn_Click(object sender, RoutedEventArgs e)
         {
             var newForm = new Window1(); //create your new form.
@@ -261,6 +284,12 @@ namespace ClickyCircle
             gameTimer.Start();   //resumes game
         }
 
-        //Test Push
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //close current game and return to menu
+            MainMenu mm = new MainMenu();
+            mm.Show();
+            this.Close();
+        }
     }
 }

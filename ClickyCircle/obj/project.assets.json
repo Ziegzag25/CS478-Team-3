@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Skyler Blaize\\.nuget\\packages\\": {}
+    "C:\\Users\\Jacob Kujawa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Skyler Blaize\\Source\\Repos\\CS478-Team-3\\ClickyCircle\\ClickyCircle.csproj",
+      "projectUniqueName": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\wow\\ClickyCircle\\ClickyCircle.csproj",
       "projectName": "ClickyCircle",
-      "projectPath": "C:\\Users\\Skyler Blaize\\Source\\Repos\\CS478-Team-3\\ClickyCircle\\ClickyCircle.csproj",
-      "packagesPath": "C:\\Users\\Skyler Blaize\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Skyler Blaize\\Source\\Repos\\CS478-Team-3\\ClickyCircle\\obj\\",
+      "projectPath": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\wow\\ClickyCircle\\ClickyCircle.csproj",
+      "packagesPath": "C:\\Users\\Jacob Kujawa\\.nuget\\packages\\",
+      "outputPath": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\wow\\ClickyCircle\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Skyler Blaize\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jacob Kujawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

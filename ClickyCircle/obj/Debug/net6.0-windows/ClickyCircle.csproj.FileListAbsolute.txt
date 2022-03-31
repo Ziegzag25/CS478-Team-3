@@ -46,3 +46,34 @@ C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-w
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.genruntimeconfig.cache
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.g.cs
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.baml
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.exe
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\sound\clickedpop.mp3
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\sound\pop.mp3
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.deps.json
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.runtimeconfig.json
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.dll
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.pdb
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.csproj.AssemblyReference.cache
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\App.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle_MarkupCompile.cache
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle_MarkupCompile.lref
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.baml
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\MainWindow.baml
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.g.resources
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.GeneratedMSBuildEditorConfig.editorconfig
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.AssemblyInfoInputs.cache
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.AssemblyInfo.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.csproj.CoreCompileInputs.cache
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.dll
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\refint\ClickyCircle.dll
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.pdb
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.genruntimeconfig.cache
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\ref\ClickyCircle.dll
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.baml
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\Login.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\NewUser.g.cs
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\Login.baml
+C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\NewUser.baml

@@ -15,6 +15,7 @@
         <Button Content="Leaderboard" Canvas.Top="37" Width="93" Height="22" Background="#FF868686" Click="Leaderboard_Click"/>
         <Button Content="Stop" Canvas.Top="59" Click="Pause_Click" Width="35" Foreground="#FF1B1919" Background="#FF868686"/>
         <Button Content="Start" Canvas.Top="84" Background="#FF868686" Click="Start_Click"/>
+        <Button Content="Menu" Canvas.Top="42" Background="#FF868686"  HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="740" Click="Button_Click_1"/>
 
     </Canvas>
 </Window>
