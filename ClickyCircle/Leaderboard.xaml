@@ -6,14 +6,17 @@
         xmlns:local="clr-namespace:ClickyCircle"
         mc:Ignorable="d"
         Title="Leaderboard" Height="450" Width="800">
-    <Grid Background="#FF868686">
-        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.105,-0.143" Click="BackButton_Click" Height="51" Width="116"/>
+    <Grid Background="#FF7A2CA9">
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.105,-0.143" Click="BackButton_Click" Height="51" Width="116" Background="#FF7B7B7B"/>
         <Label Content="UserName" HorizontalAlignment="Left" Margin="123,102,0,0" VerticalAlignment="Top" Height="44" Width="121"/>
         <Label Content="Score" HorizontalAlignment="Left" Margin="370,102,0,0" VerticalAlignment="Top" Height="44" Width="121"/>
         <Label Content="Health" HorizontalAlignment="Left" Margin="590,102,0,0" VerticalAlignment="Top" Height="44" Width="121"/>
-        <Label Content="Work In Progress" HorizontalAlignment="Left" Margin="123,165,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,173,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="561,173,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="561,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox HorizontalAlignment="Left" Margin="100,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="100,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged" Margin="561,0,0,0"/>
 
     </Grid>
 </Window>

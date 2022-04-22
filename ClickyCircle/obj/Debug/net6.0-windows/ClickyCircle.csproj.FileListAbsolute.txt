@@ -77,3 +77,9 @@ C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-win
 C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\NewUser.g.cs
 C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\Login.baml
 C:\SchoolBackup\USI\2021-2022\Sem 2\CS 478\wth\ClickyCircle\obj\Debug\net6.0-windows\NewUser.baml
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\Login.g.cs
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.g.cs
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\NewUser.g.cs
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\Login.baml
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.baml
+C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\NewUser.baml
