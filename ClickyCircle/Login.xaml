@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ClickyCircle"
         mc:Ignorable="d"
         Title="Login" Height="214" Width="379"  ResizeMode="NoResize">
-    <Grid Margin="0,0,0,-6" Background="Gray">
+    <Grid Margin="0,0,0,-6" Background="#FF51C6DC">
 
         <Label Content="User Name" HorizontalAlignment="Left" Margin="34,38,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="34,69,0,0" VerticalAlignment="Top" Grid.Column="1"/>
