@@ -83,3 +83,35 @@ C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-w
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\Login.baml
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.baml
 C:\Users\Skyler Blaize\Source\Repos\CS478-Team-3\ClickyCircle\obj\Debug\net6.0-windows\NewUser.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.exe
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\sound\clickedpop.mp3
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\sound\pop.mp3
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.deps.json
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.runtimeconfig.json
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.dll
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\ClickyCircle.pdb
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.csproj.AssemblyReference.cache
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\Login.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\NewUser.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle_MarkupCompile.cache
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle_MarkupCompile.lref
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\Leaderboard.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\Login.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\MainMenu.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\NewUser.baml
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.g.resources
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.AssemblyInfoInputs.cache
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.AssemblyInfo.cs
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.csproj.CoreCompileInputs.cache
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.dll
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\refint\ClickyCircle.dll
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.pdb
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ClickyCircle.genruntimeconfig.cache
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\obj\Debug\net6.0-windows\ref\ClickyCircle.dll
+C:\Users\colli\Source\Repos\ClonedClicky\ClickyCircle\bin\Debug\net6.0-windows\sound\playerSongSound.mp3

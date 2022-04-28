@@ -28,7 +28,7 @@ namespace ClickyCircle
         List<Ellipse> removeThis = new List<Ellipse>(); // make a list of ellipse called remove this it will be used to remove the circles we click on from the game
 
         // below are all the necessary integers declared for this game
-        int spawnRate = 60; // this is the default spawn rate of the circles
+        int spawnRate = 65; // this is the default spawn rate of the circles
         int currentRate; // current rate will help add an interval between spawning of the circles
         int lastScore = 0; // this will hold the last played score for this game
         int health = 350; // total health of the player in the begining of the game
@@ -40,15 +40,17 @@ namespace ClickyCircle
 
         Random rand = new Random(); // a random number generator
 
-        // below are the two media player classes one for the clicked sound and one for the pop sound
+        // below are the three media player classes one for the clicked sound and one for the pop sound and one for the song
 
         MediaPlayer playClickSound = new MediaPlayer();
         MediaPlayer playerPopSound = new MediaPlayer();
+        MediaPlayer playSongSound = new MediaPlayer();
 
         // below are the two URI location finder for both mp3 files we imported for this game
 
         Uri ClickedSound;
         Uri PoppedSound;
+        Uri playerSongSound;
 
         // colour for the circles
         Brush brush;
@@ -65,10 +67,13 @@ namespace ClickyCircle
 
             currentRate = spawnRate; // set the current rate to the spawn rate number
 
-            // locate both of the mp3 files inside sound folder and add them to the correct URI below
+            // locate the 3 mp3 files inside sound folder and add them to the correct URI below
 
             ClickedSound = new Uri("pack://siteoforigin:,,,/sound/clickedpop.mp3");
             PoppedSound = new Uri("pack://siteoforigin:,,,/sound/pop.mp3");
+            playerSongSound = new Uri("pack://siteoforigin:,,,/sound/playerSongSound.mp3");
+            playSongSound.Open(playerSongSound);
+            playSongSound.Play();
 
         }
 
@@ -76,6 +81,8 @@ namespace ClickyCircle
         {
 
             // this is the game loop event, all of the instructions inside of this event will run each time the timer ticks
+
+
 
             // first we update the score and show the last score on the labels
             txtScore.Content = "Score: " + score;
@@ -137,7 +144,7 @@ namespace ClickyCircle
                     health -= 15; // reduce health by 15 
                     playerPopSound.Open(PoppedSound); // load the popped sound uri inside of the player pop sound media player
                     playerPopSound.Play(); // now play the pop sound
-
+ 
                 }
 
             } // end of for each loop
@@ -162,21 +169,32 @@ namespace ClickyCircle
             }
 
             // if the score if above 5 
-            if (score > 5)
+           // if (score > 5)
             {
                 // speed up the spawn rate
-                spawnRate = 25;
+               // spawnRate = 25;
             }
 
             // if the score is above 20 
-            if (score > 20)
+            if (score > 18)
             {
                 // speed up the growth and and spawn rate
-                spawnRate = 15;
+                spawnRate = 24;
                 growthRate = 1.5;
             }
 
-
+            if (score > 190)
+            {
+                // speed up the growth and and spawn rate
+                spawnRate = 65;
+                growthRate = 0.6;
+            }
+            if (score > 210)
+            {
+                // speed up the growth and and spawn rate
+                spawnRate = 26;
+                growthRate = 1.5;
+            }
         }
 
         private void CanvasClicking(object sender, MouseButtonEventArgs e)
@@ -206,6 +224,7 @@ namespace ClickyCircle
             // this is the game over function 
 
             gameTimer.Stop(); // first stop the game timer
+            playSongSound.Stop();
 
             // show a message box to the end screen and wait for the player to click ok
             //modified to allow for yes or no input
@@ -236,13 +255,15 @@ namespace ClickyCircle
 
                     // reset all of the game values to default including clearling all of the ellipses from the remove this list
                     growthRate = .6;
-                    spawnRate = 60;
+                    spawnRate = 65;
                     lastScore = score;
                     score = 0;
                     currentRate = 5;
                     health = 350;
                     removeThis.Clear();
                     gameTimer.Start();
+                    playSongSound.Open(playerSongSound);
+                    playSongSound.Play();
                     break;
 
                 case MessageBoxResult.No: //closes MainWindow opens Menu

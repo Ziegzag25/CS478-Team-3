@@ -11,6 +11,9 @@
     <None Update="sound\clickedpop.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="sound\playerSongSound.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="sound\pop.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
