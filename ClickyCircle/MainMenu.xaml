@@ -15,9 +15,9 @@
             <ListBoxItem x:Name="Demo" FontSize="25" Height="50" Content="Demo"/>
 
         </ListBox>
-        <Button x:Name="BTNLeaderBoard" Content="LeaderBoard" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Height="77" Width="116" IsEnabled="False" Background="#FF9400FF" Click="BTNLeaderBoard_Click"/>
-        <Button x:Name="BTNLogin" Content="Login" HorizontalAlignment="Left" Margin="21,223,0,0" VerticalAlignment="Top" Height="22" Width="44"  Background="#FFF1FF00" Click="BTNLogin_Click" />
-        <Button x:Name="BTNNew_User" Content="New User" HorizontalAlignment="Left" Margin="70,223,0,0" VerticalAlignment="Top" Height="22" Width="67" Background="#FFF1FF00" Click="BTNNew_User_Click" />
+        <Button x:Name="BTNLeaderBoard" Content="Leaderboard" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" Height="77" Width="116" IsEnabled="False" Background="#FF9400FF" Click="BTNLeaderBoard_Click"/>
+        <Button x:Name="BTNLogin" Content="Login" HorizontalAlignment="Left" Margin="21,223,0,0" VerticalAlignment="Top" Height="22" Width="44"  Background="#FFF1FF00" Click="BTNLogin_Click" Visibility="Hidden" />
+        <Button x:Name="BTNNew_User" Content="Create User Name" HorizontalAlignment="Left" Margin="21,223,0,0" VerticalAlignment="Top" Height="22" Width="116" Background="#FFF1FF00" Click="BTNNew_User_Click" />
 
     </Grid>
 </Window>
