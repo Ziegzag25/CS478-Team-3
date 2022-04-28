@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\colli\\Source\\Repos\\ClonedClicky\\ClickyCircle\\ClickyCircle.csproj": {}
+    "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\proj 7\\ClickyCircle\\ClickyCircle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\colli\\Source\\Repos\\ClonedClicky\\ClickyCircle\\ClickyCircle.csproj": {
+    "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\proj 7\\ClickyCircle\\ClickyCircle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colli\\Source\\Repos\\ClonedClicky\\ClickyCircle\\ClickyCircle.csproj",
+        "projectUniqueName": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\proj 7\\ClickyCircle\\ClickyCircle.csproj",
         "projectName": "ClickyCircle",
-        "projectPath": "C:\\Users\\colli\\Source\\Repos\\ClonedClicky\\ClickyCircle\\ClickyCircle.csproj",
-        "packagesPath": "C:\\Users\\colli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colli\\Source\\Repos\\ClonedClicky\\ClickyCircle\\obj\\",
+        "projectPath": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\proj 7\\ClickyCircle\\ClickyCircle.csproj",
+        "packagesPath": "C:\\Users\\Jacob Kujawa\\.nuget\\packages\\",
+        "outputPath": "C:\\SchoolBackup\\USI\\2021-2022\\Sem 2\\CS 478\\proj 7\\ClickyCircle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\colli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jacob Kujawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

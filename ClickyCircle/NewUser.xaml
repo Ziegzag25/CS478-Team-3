@@ -10,11 +10,11 @@
         <Label Content="User Name" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Password" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top"/>
         <Label Content="Password Conformation" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="TBUserName" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="145" MaxLength="20"  />
-        <Button Name="BTNConfirm" Content="Confirm" HorizontalAlignment="Left" Margin="54,177,0,0" VerticalAlignment="Top" Width="72" Click="BTNConfirm_Click"  />
-        <Button Name="BTNCancel" Content="Cancel" HorizontalAlignment="Left" Margin="192,177,0,0" VerticalAlignment="Top" Width="94" Click="BTNCancel_Click"/>
-        <PasswordBox x:Name="PWDPassword" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Width="145" MaxLength="20"/>
-        <PasswordBox x:Name="PWDPasswordCheck" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Width="145" MaxLength="20"/>
+        <TextBox Name="TBUserName" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="145" MaxLength="20" TabIndex="1"  />
+        <Button Name="BTNConfirm" Content="Confirm" HorizontalAlignment="Left" Margin="54,177,0,0" VerticalAlignment="Top" Width="72" Click="BTNConfirm_Click" TabIndex="4"  />
+        <Button Name="BTNCancel" Content="Cancel" HorizontalAlignment="Left" Margin="192,177,0,0" VerticalAlignment="Top" Width="94" Click="BTNCancel_Click" TabIndex="5"/>
+        <PasswordBox x:Name="PWDPassword" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Width="145" MaxLength="20" TabIndex="2"/>
+        <PasswordBox x:Name="PWDPasswordCheck" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Width="145" MaxLength="20" TabIndex="3"/>
 
     </Grid>
 </Window>
